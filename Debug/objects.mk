@@ -4,5 +4,5 @@
 
 USER_OBJS :=
 
-LIBS :=
+LIBS := -ljson_linux-gcc-4.6.1_libmt -lPocoFoundation -lPocoNet -lPocoXML -lPocoUtil
 

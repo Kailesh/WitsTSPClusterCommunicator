@@ -44,7 +44,7 @@ all: ClusterCommunicator
 ClusterCommunicator: $(OBJS) $(USER_OBJS)
 	@echo 'Building target: $@'
 	@echo 'Invoking: GCC C++ Linker'
-	g++  -o "ClusterCommunicator" $(OBJS) $(USER_OBJS) $(LIBS)
+	g++ -L/home/kailesh/Downloads/trunk/jsoncpp/libs/linux-gcc-4.6.1 -L/home/kailesh/poco_lib/lib -o "ClusterCommunicator" $(OBJS) $(USER_OBJS) $(LIBS)
 	@echo 'Finished building target: $@'
 	@echo ' '
 
