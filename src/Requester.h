@@ -2,7 +2,7 @@
  * Requester.h
  *
  *  Created on: 12 May 2012
- *      Author: kailesh
+ *      Author: Kailesh Ramjee
  */
 
 #ifndef REQUESTER_H_

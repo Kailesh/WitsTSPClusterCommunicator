@@ -6,26 +6,26 @@
 CPP_SRCS += \
 ../src/ClusterCommunicator.cpp \
 ../src/DataExtractor.cpp \
-../src/DataGenerator.cpp \
 ../src/DataSender.cpp \
 ../src/RequestData.cpp \
-../src/Requester.cpp 
+../src/Requester.cpp \
+../src/ResultGenerator.cpp 
 
 OBJS += \
 ./src/ClusterCommunicator.o \
 ./src/DataExtractor.o \
-./src/DataGenerator.o \
 ./src/DataSender.o \
 ./src/RequestData.o \
-./src/Requester.o 
+./src/Requester.o \
+./src/ResultGenerator.o 
 
 CPP_DEPS += \
 ./src/ClusterCommunicator.d \
 ./src/DataExtractor.d \
-./src/DataGenerator.d \
 ./src/DataSender.d \
 ./src/RequestData.d \
-./src/Requester.d 
+./src/Requester.d \
+./src/ResultGenerator.d 
 
 
 # Each subdirectory must supply rules for building sources it contributes

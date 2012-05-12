@@ -1,18 +1,18 @@
 /*
- * DataExtractor.cpp
+ * ResultGenerator.cpp
  *
  *  Created on: 12 May 2012
  *      Author: Kailesh Ramjee
  */
 
-#include "DataExtractor.h"
+#include "ResultGenerator.h"
 
-DataExtractor::DataExtractor() {
+ResultGenerator::ResultGenerator() {
 	// TODO Auto-generated constructor stub
 
 }
 
-DataExtractor::~DataExtractor() {
+ResultGenerator::~ResultGenerator() {
 	// TODO Auto-generated destructor stub
 }
 

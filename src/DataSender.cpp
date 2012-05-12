@@ -2,7 +2,7 @@
  * DataSender.cpp
  *
  *  Created on: 12 May 2012
- *      Author: kailesh
+ *      Author: Kailesh Ramjee
  */
 
 #include "DataSender.h"
