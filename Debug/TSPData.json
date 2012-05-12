@@ -1,0 +1,14 @@
+{
+	
+	"noOfCities" : 4,
+	"distanceMatrix" : [	[1, 2, 5, 6],
+				[7, 8 , 9 , 10],
+				[11, 12, 13, 16],
+				[20, 31, 12, 234]
+				],
+	“names” : ["Johannesburg",
+			"Cape Town",
+			"Pretoria",
+			"eaefa"]
+}
+

@@ -1,4 +1,5 @@
 src/ClusterCommunicator.d: ../src/ClusterCommunicator.cpp \
+ ../src/Requester.h \
  /home/kailesh/poco_lib/include/Poco/Net/HTTPClientSession.h \
  /home/kailesh/poco_lib/include/Poco/Net/Net.h \
  /home/kailesh/poco_lib/include/Poco/Foundation.h \
@@ -26,7 +27,6 @@ src/ClusterCommunicator.d: ../src/ClusterCommunicator.cpp \
  /home/kailesh/poco_lib/include/Poco/Net/NameValueCollection.h \
  /home/kailesh/poco_lib/include/Poco/String.h \
  /home/kailesh/poco_lib/include/Poco/Ascii.h \
- /home/kailesh/poco_lib/include/Poco/Net/HTMLForm.h \
  /home/kailesh/poco_lib/include/Poco/Net/HTTPResponse.h \
  /home/kailesh/poco_lib/include/Poco/Net/HTTPCookie.h \
  /home/kailesh/poco_lib/include/Poco/StreamCopier.h \
@@ -38,6 +38,8 @@ src/ClusterCommunicator.d: ../src/ClusterCommunicator.cpp \
  /home/kailesh/Downloads/trunk/jsoncpp/include/json/reader.h \
  /home/kailesh/Downloads/trunk/jsoncpp/include/json/features.h \
  /home/kailesh/Downloads/trunk/jsoncpp/include/json/writer.h
+
+../src/Requester.h:
 
 /home/kailesh/poco_lib/include/Poco/Net/HTTPClientSession.h:
 
@@ -92,8 +94,6 @@ src/ClusterCommunicator.d: ../src/ClusterCommunicator.cpp \
 /home/kailesh/poco_lib/include/Poco/String.h:
 
 /home/kailesh/poco_lib/include/Poco/Ascii.h:
-
-/home/kailesh/poco_lib/include/Poco/Net/HTMLForm.h:
 
 /home/kailesh/poco_lib/include/Poco/Net/HTTPResponse.h:
 
