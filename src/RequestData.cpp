@@ -15,11 +15,11 @@ RequestData::RequestData() {
 RequestData::~RequestData() {
 	// TODO Auto-generated destructor stub
 }
-int RequestData::getNumberOfCities() const {
+unsigned int RequestData::getNumberOfCities() const {
 	return _numberOfCities;
 }
 
-void RequestData::setNumberOfCities(int numberOfCities) {
+void RequestData::setNumberOfCities(unsigned int numberOfCities) {
 	_numberOfCities = numberOfCities;
 }
 
@@ -31,11 +31,11 @@ void RequestData::setCityNames(vector<string> cityNames) {
 	_cityNames = cityNames;
 }
 
-vector<vector<int> > RequestData::getDistanceMatrix() const {
+vector<vector<unsigned int> > RequestData::getDistanceMatrix() const {
 	return _distanceMatrix;
 }
 
-void RequestData::setDistanceMatrix(vector<vector<int> > distanceMatrix) {
+void RequestData::setDistanceMatrix(vector<vector<unsigned int> > distanceMatrix) {
 	_distanceMatrix = distanceMatrix;
 }
 

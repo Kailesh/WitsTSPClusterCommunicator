@@ -30,6 +30,7 @@ src/ClusterCommunicator.d: ../src/ClusterCommunicator.cpp \
  /home/kailesh/poco_lib/include/Poco/Net/HTTPResponse.h \
  /home/kailesh/poco_lib/include/Poco/Net/HTTPCookie.h \
  /home/kailesh/poco_lib/include/Poco/StreamCopier.h \
+ ../src/DataExtractor.h ../src/RequestData.h \
  /home/kailesh/Downloads/trunk/jsoncpp/include/json/json.h \
  /home/kailesh/Downloads/trunk/jsoncpp/include/json/autolink.h \
  /home/kailesh/Downloads/trunk/jsoncpp/include/json/config.h \
@@ -100,6 +101,10 @@ src/ClusterCommunicator.d: ../src/ClusterCommunicator.cpp \
 /home/kailesh/poco_lib/include/Poco/Net/HTTPCookie.h:
 
 /home/kailesh/poco_lib/include/Poco/StreamCopier.h:
+
+../src/DataExtractor.h:
+
+../src/RequestData.h:
 
 /home/kailesh/Downloads/trunk/jsoncpp/include/json/json.h:
 

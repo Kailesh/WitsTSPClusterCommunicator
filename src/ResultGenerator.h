@@ -8,10 +8,20 @@
 #ifndef RESULTGENERATOR_H_
 #define RESULTGENERATOR_H_
 
+#include <vector>
+#include <string>
+using namespace std;
+
 class ResultGenerator {
 public:
-	ResultGenerator();
+	ResultGenerator(unsigned int bestPathLength, vector<unsigned int> route);
+
+
 	virtual ~ResultGenerator();
+private:
+	unsigned int _bestPathLength;
+	vector<string>
+
 };
 
 #endif /* RESULTGENERATOR_H_ */

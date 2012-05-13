@@ -28,13 +28,13 @@ public:
 	 *  Getter function that returns the no. of cities
 	 *  @return The no. of cities
 	 */
-	int getNumberOfCities() const;
+	unsigned int getNumberOfCities() const;
 
 	/**
 	 *  Setter function that sets the no. of the cities
 	 *  @param numberOfCities The number of cities
 	 */
-	void setNumberOfCities(int numberOfCities);
+	void setNumberOfCities(unsigned int numberOfCities);
 
 	/**
 	 *  Getter function that returns the names of the cities
@@ -52,24 +52,24 @@ public:
 	 *  Getter function that returns the distance matrix
 	 *  @return A vector of city names
 	 */
-	vector<vector<int> > getDistanceMatrix() const;
+	vector<vector<unsigned int> > getDistanceMatrix() const;
 
 	/**
 	 *  Setter function that sets distance matrix
 	 *  @param distanceMatrix 2-D Vector of the distances between the cities
 	 */
-	void setDistanceMatrix(vector<vector<int> > distanceMatrix);
+	void setDistanceMatrix(vector<vector<unsigned int> > distanceMatrix);
 
 private:
 	/**
 	 * Variable that stores the number of cities in the TSP problem
 	 */
-	int _numberOfCities;
+	unsigned int _numberOfCities;
 
 	/**
 	 * The distance matrix between n cities is a n by n matrix
 	 */
-	vector<vector<int> > _distanceMatrix;
+	vector<vector<unsigned int> > _distanceMatrix;
 
 	/**
 	 * The names of the cities stored in this vector
