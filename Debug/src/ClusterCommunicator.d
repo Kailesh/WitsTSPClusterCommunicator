@@ -38,7 +38,8 @@ src/ClusterCommunicator.d: ../src/ClusterCommunicator.cpp \
  /home/kailesh/Downloads/trunk/jsoncpp/include/json/forwards.h \
  /home/kailesh/Downloads/trunk/jsoncpp/include/json/reader.h \
  /home/kailesh/Downloads/trunk/jsoncpp/include/json/features.h \
- /home/kailesh/Downloads/trunk/jsoncpp/include/json/writer.h
+ /home/kailesh/Downloads/trunk/jsoncpp/include/json/writer.h \
+ ../src/ResultGenerator.h
 
 ../src/Requester.h:
 
@@ -121,3 +122,5 @@ src/ClusterCommunicator.d: ../src/ClusterCommunicator.cpp \
 /home/kailesh/Downloads/trunk/jsoncpp/include/json/features.h:
 
 /home/kailesh/Downloads/trunk/jsoncpp/include/json/writer.h:
+
+../src/ResultGenerator.h:
