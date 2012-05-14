@@ -29,7 +29,6 @@ void DataSender::makeRequest() {
 
 	HTTPResponse response;
 	std::istream& rs = session.receiveResponse(response);
-	cout << "\nrs = " << rs << endl;
 
 	// Output the HTTP response message and the content of the message
 	response.write(cout) ;
