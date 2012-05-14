@@ -22,13 +22,30 @@ using namespace Poco::Net;
 
 class DataSender {
 public:
+	/**
+	 * A Constructor
+	 * @param address the address of the web-server
+	 */
 	DataSender(string address);
+	/**
+	 * A Destructor
+	 */
 	virtual ~DataSender();
-
+	/**
+	 * Make a request as a client. This request will POST
+	 * the results using a JSON structure.
+	 */
 	void makeRequest();
+	/**
+	 * Generates a string from a JOSN file
+	 * @return The generated string
+	 */
 	string generateRequestPOSTString();
 
 private:
+	/**
+	 * The address of the web-server
+	 */
 	string _address;
 };
 

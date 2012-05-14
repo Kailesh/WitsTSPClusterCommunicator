@@ -22,25 +22,20 @@ public:
 	 * A Constructor
 	 */
 	DataExtractor();
-
 	/**
 	 * A Destructor
 	 */
 	virtual ~DataExtractor();
-
 	/**
 	 * Receives the data from a file and parses the data
 	 */
 	void parseDataFromFile();
-
 	/**
 	 * Receives the data from a file and parses the data
 	 */
 	RequestData constructTSPData();
 
 private:
-
-
 	/**
 	 * Json::Value that forms the root of the file
 	 */

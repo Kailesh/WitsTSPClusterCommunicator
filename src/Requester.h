@@ -23,18 +23,15 @@ public:
 	 * A Constructor
 	 */
 	Requester(string address);
-
 	/**
 	 * A Destructor
 	 */
 	virtual ~Requester();
-
 	/**
 	 *  Creates connection to web-server and receives
 	 *  TSP data in the from of an output stream
 	 */
 	void connectToWebServer();
-
 	/**
 	 *  Dumps the data in a JSON file
 	 *  @param JSONFileName The name of the file to store the TSP data
@@ -42,7 +39,6 @@ public:
 	void createJSONFile(istream& rs);
 
 private:
-
 	/**
 	 * The name of address of the web-server
 	 */
