@@ -45,8 +45,6 @@ void ResultGenerator::constructJSONStream() {
 
 void ResultGenerator::createJSONFile() {
 	ofstream jsonFile("TSPResults.json");
+	jsonFile << _responseRoot;
+	jsonFile.close();
 }
-
-
-
-

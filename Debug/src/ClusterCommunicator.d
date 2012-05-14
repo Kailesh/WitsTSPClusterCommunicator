@@ -39,7 +39,8 @@ src/ClusterCommunicator.d: ../src/ClusterCommunicator.cpp \
  /home/kailesh/Downloads/trunk/jsoncpp/include/json/reader.h \
  /home/kailesh/Downloads/trunk/jsoncpp/include/json/features.h \
  /home/kailesh/Downloads/trunk/jsoncpp/include/json/writer.h \
- ../src/ResultGenerator.h
+ ../src/ResultGenerator.h ../src/DataSender.h \
+ /home/kailesh/poco_lib/include/Poco/URI.h
 
 ../src/Requester.h:
 
@@ -124,3 +125,7 @@ src/ClusterCommunicator.d: ../src/ClusterCommunicator.cpp \
 /home/kailesh/Downloads/trunk/jsoncpp/include/json/writer.h:
 
 ../src/ResultGenerator.h:
+
+../src/DataSender.h:
+
+/home/kailesh/poco_lib/include/Poco/URI.h:
