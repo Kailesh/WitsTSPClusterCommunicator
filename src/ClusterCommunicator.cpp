@@ -11,7 +11,6 @@
 #include "RequestData.h"
 #include "ResultGenerator.h"
 #include "DataSender.h"
-
 #include <iostream>
 #include <json/json.h>
 #include <vector>
@@ -21,17 +20,17 @@ using namespace std;
 
 int main() {
 
+	//Requester
 	string webServerAddress = "localhost";
 	Requester myRequester(webServerAddress);
 	myRequester.connectToWebServer();
-
 
 	//Extractor
 	DataExtractor myExtractor;
 	myExtractor.parseDataFromFile();
 	RequestData myTSPData = myExtractor.constructTSPData();
+	// For the algorithm
 	vector<vector<unsigned int> > distanceMatrix(myTSPData.getDistanceMatrix());
-
 
 	//-------Algorithm-------
 	vector<unsigned int> bestRoute; // Starts at 0 being the first city in the distance matrix
@@ -52,9 +51,6 @@ int main() {
 	//Send the result to the Web-server
 	DataSender mySender("localhost");
 	mySender.makeRequest();
-
-
-
 
 	return 0;
 }
